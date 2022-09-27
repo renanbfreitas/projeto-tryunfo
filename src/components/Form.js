@@ -10,6 +10,7 @@ class Form extends React.Component {
     return (
       <div>
         <label htmlFor="name">
+          Nome:
           <input
             name="cardName"
             type="text"
@@ -21,6 +22,7 @@ class Form extends React.Component {
         </label>
 
         <label htmlFor="description">
+          Descrição:
           <input
             name="cardDescription"
             type="textarea"
@@ -32,6 +34,7 @@ class Form extends React.Component {
         </label>
 
         <label htmlFor="attr1">
+          Força:
           <input
             name="cardAttr1"
             type="number"
@@ -39,10 +42,13 @@ class Form extends React.Component {
             id="attr1"
             onChange={ onInputChange }
             value={ cardAttr1 }
+            min="0"
+            max="90"
           />
         </label>
 
         <label htmlFor="attr2">
+          Defesa:
           <input
             name="cardAttr2"
             type="number"
@@ -50,10 +56,13 @@ class Form extends React.Component {
             id="attr2"
             onChange={ onInputChange }
             value={ cardAttr2 }
+            min="0"
+            max="90"
           />
         </label>
 
         <label htmlFor="attr3">
+          Velocidade:
           <input
             name="cardAttr3"
             type="number"
@@ -61,10 +70,13 @@ class Form extends React.Component {
             id="attr3"
             onChange={ onInputChange }
             value={ cardAttr3 }
+            min="0"
+            max="90"
           />
         </label>
 
         <label htmlFor="image-input">
+          Coloque uma imagem:
           <input
             name="cardImage"
             type="text"
@@ -76,6 +88,7 @@ class Form extends React.Component {
         </label>
 
         <label htmlFor="rare">
+          Raridade:
           <select
             name="cardRare"
             data-testid="rare-input"
@@ -89,6 +102,7 @@ class Form extends React.Component {
           </select>
         </label>
 
+        Super Trunfo:
         <input
           name="cardTrunfo"
           type="checkbox"
