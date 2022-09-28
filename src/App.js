@@ -63,7 +63,7 @@ class App extends React.Component {
   onSaveButtonClick = (e) => {
     e.preventDefault();
     const { cardName, cardDescription, cardAttr1,
-      cardAttr2, cardAttr3, cardImage, cardRare } = this.state;
+      cardAttr2, cardAttr3, cardImage, cardRare, cardTrunfo, hasTrunfo } = this.state;
     const cardNew = {
       cardName,
       cardDescription,
@@ -71,7 +71,9 @@ class App extends React.Component {
       cardAttr2,
       cardAttr3,
       cardImage,
-      cardRare };
+      cardRare,
+      cardTrunfo,
+      hasTrunfo };
 
     this.setState((prevState) => ({
       cardName: '',
@@ -81,6 +83,8 @@ class App extends React.Component {
       cardAttr2: '0',
       cardAttr3: '0',
       cardRare: 'normal',
+      hasTrunfo: true,
+      cardTrunfo: false,
       cardInserted: [...prevState.cardInserted, cardNew],
     }));
   };
