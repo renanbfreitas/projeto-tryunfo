@@ -73,7 +73,8 @@ class App extends React.Component {
       cardImage,
       cardRare,
       cardTrunfo,
-      hasTrunfo };
+      hasTrunfo,
+    };
 
     this.setState((prevState) => ({
       cardName: '',
@@ -92,7 +93,7 @@ class App extends React.Component {
   render() {
     const { cardName, cardDescription, cardAttr1, cardAttr2, cardAttr3,
       cardImage, cardRare, cardTrunfo,
-      hasTrunfo, isSaveButtonDisabled } = this.state;
+      hasTrunfo, isSaveButtonDisabled, cardInserted } = this.state;
     return (
       <div>
         <h1>Tryunfo</h1>
@@ -121,6 +122,13 @@ class App extends React.Component {
           cardRare={ cardRare }
           cardTrunfo={ cardTrunfo }
         />
+        {cardInserted.map((card) => (
+          <div key={ card.cardName }>
+            <Card
+              { ...card }
+            />
+          </div>
+        ))}
       </div>
     );
   }
