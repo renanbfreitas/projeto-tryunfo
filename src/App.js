@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './components/Form';
 import Card from './components/Card';
+import './styles/App.css';
 
 class App extends React.Component {
   constructor() {
@@ -96,7 +97,7 @@ class App extends React.Component {
       hasTrunfo, isSaveButtonDisabled, cardInserted } = this.state;
     return (
       <div>
-        <h1>Tryunfo</h1>
+        <h1 className="tryunfoName">Tryunfo</h1>
         <Form
           cardName={ cardName }
           cardDescription={ cardDescription }

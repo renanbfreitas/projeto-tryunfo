@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Permanent+Marker&family=Shadows+Into+Light&display=swap') ;
+
+.superTrunfo {
+  font-family: Permanent Marker , cursive;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.imageSelection {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 800px;
+}

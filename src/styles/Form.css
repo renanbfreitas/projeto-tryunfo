@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Permanent+Marker&family=Shadows+Into+Light&display=swap') ;
+
+.nameUsuario {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.nome {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+}
+
+.nameDescriçao {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.descriçao {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 540px;
+}
+
+.nameForça {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.força {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 595px;
+}
+
+.nameDefesa {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.defesa {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 585px;
+}
+
+.nameVelocidade {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.velocidade {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 523px;
+}
+
+.nameImg {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.coloqueUmaImagem {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 362px;
+}
+
+.nameRaridade {
+  align-items: center;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.raridade {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 560px;
+}
+
+.nameTrunfo {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  width: 560px;
+}
+
+.buttonSalvar {
+  align-items: center;
+  border: 1px solid gold;
+  box-shadow: gold;
+  font-family: Permanent Marker , cursive;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 695px;
+}

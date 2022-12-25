@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Permanent+Marker&family=Shadows+Into+Light&display=swap') ;
+
+body {
+  align-items: flex;
+  background: url('../../images/gambit5.jpg');
+  background-position: 5% 102%;
+  background-size: 2490px;
+  border: 1px solid gold;
+  box-shadow: gold;
+  color: white;
+  font-family: Permanent Marker , cursive;
+  font-size: 20px;
+  height: 0;
+  justify-content: flex;
+  text-align: flex;
+}
+
+.tryunfoName {
+  align-items: center;
+  display: flex;
+  font-family: Permanent Marker , cursive;
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+}
