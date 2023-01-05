@@ -31,3 +31,9 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wor
 ---   
 
 <img src="https://img.shields.io/static/v1?label=Link&message=Tryunfo&color=green&style=for-the-badge&logo=github"/>
+
+### <b> <a href="https://projeto-tryunfo.vercel.app/">Tryunfo</a> </b> <br>
+
+</div>
+
+<div align="center">
